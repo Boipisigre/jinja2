@@ -1,7 +1,8 @@
 # Introduction à la création de modèles Jinja
 
 ## Premiers pas
-construit à partir de https://realpython.com/primer-on-jinja-templating/
+Construit à partir de https://realpython.com/primer-on-jinja-templating/ que je vous recommande consulter pas seulement pour jinja2 mais aussi pour l'utilisation de jinja2 dans Flask.
+
 ### installation
 > pipenv install Jinja2
 
@@ -60,7 +61,7 @@ Il est bien sur plus intéressant de charger un modèle à partir d'un fichier.
  >Pierre
 
 
-le script message.py montre comment on charge un modèle et l'on utilise les variables {{ nom }} dans jinja2.
+le script **message.py** montre comment on charge un modèle et l'on utilise les variables {{ nom }} dans jinja2.
 
 **Nota** : on passe la structure student et non pas name et score
 
@@ -83,3 +84,12 @@ la syntaxe est proche
 #### Instruction loop
 
 c'est en fait l'instruction {% for %} elle aussi construite comme en Python..
+
+le script write_messages.py associé au deux modèles messageif.txt et resultat.html vous donnera une idée des possibilité de Jinja2
+
+## A lire
+
+https://www.golinuxcloud.com/flask-template/
+https://realpython.com/primer-on-jinja-templating/
+
+https://ttl255.com/jinja2-tutorial-part-1-introduction-and-variable-substitution/
