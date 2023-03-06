@@ -1,0 +1,18 @@
+{# templates/message.txt #}
+
+Bonjour {{ name }}!
+
+
+{% if score > 80 %}
+Je suis heureux de vous informer que vous avez très bien réussi l'examen d'aujourd'hui : {{ test_name }}.
+
+{% else %}
+
+Je suis désolé de vous informer que vous n'avez pas bien réussi l'examen d'aujourd'hui. {{ test_name }}.
+
+{% endif %}
+
+Vous avez atteint {{ score }} sur {{ max_score }} points.
+
+A bientôt!
+Pierre

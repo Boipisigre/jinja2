@@ -43,4 +43,43 @@ le rendu
 
 Il est bien sur plus intéressant de charger un modèle à partir d'un fichier.
 
-Un fichier comme modèle:
+## Aller plus loin
+
+### Un fichier comme modèle:
+ voici le fichier modèle : message.txt
+
+ > {# templates/message.txt #}
+>
+> Bonjour {{ name }}!
+>
+>  Je suis heureux de vous informer que vous avez très bien réussi l'examen d'aujourd'hui : {{ test_name }}.   
+ Vous avez atteint {{ score }} sur {{ max_score }} points.
+>
+>  A bientôt!
+>     
+ >Pierre
+
+
+le script message.py montre comment on charge un modèle et l'on utilise les variables {{ nom }} dans jinja2.
+
+**Nota** : on passe la structure student et non pas name et score
+
+
+### Maîtriser le flux dans Jinja
+
+Dans jinja2 il existe des structures de programmation permettant de traiter des cycles, des conditions.
+
+#### Instruction if
+
+Elle fonctionne comme en Python
+
+la syntaxe est proche
+{% if %}
+   action
+{% else %}
+   action
+{% endif %}
+
+#### Instruction loop
+
+c'est en fait l'instruction {% for %} elle aussi construite comme en Python..
