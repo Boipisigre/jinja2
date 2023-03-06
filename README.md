@@ -90,6 +90,7 @@ le script write_messages.py associé au deux modèles messageif.txt et resultat.
 ## A lire
 
 https://www.golinuxcloud.com/flask-template/
+
 https://realpython.com/primer-on-jinja-templating/
 
 https://ttl255.com/jinja2-tutorial-part-1-introduction-and-variable-substitution/
