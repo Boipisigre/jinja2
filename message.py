@@ -10,11 +10,17 @@ students = [
     {"name": "Frieda", "score": 92},
 ]
 
+# positionnement du répertoire de modèle.
 environment = Environment(loader=FileSystemLoader("templates/"))
+
+# chargement du fichier modèle
 template = environment.get_template("message.txt")
 
+# Boucle sur les étudiants
 for student in students:
-    filename = f"test/message_{student['name'].lower()}.txt"
+    filename = f"output/message_{student['name'].lower()}.txt"
+
+    # Effectuer le rendu du modèle
     content = template.render(
         student,
         max_score=max_score,

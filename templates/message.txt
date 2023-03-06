@@ -2,8 +2,8 @@
 
 Bonjour {{ name }}!
 
-I'm happy to inform you that you did very well on today's {{ test_name }}.
-You reached {{ score }} out of {{ max_score }} points.
+Je suis heureux de vous informer que vous avez très bien réussi l'examen d'aujourd'hui : {{ test_name }}.
+Vous avez atteint {{ score }} sur {{ max_score }} points.
 
-See you tomorrow!
+A bientôt!
 Pierre
