@@ -1,7 +1,7 @@
 # Introduction à la création de modèles Jinja
 
 ## Premiers pas
-
+construit à partir de https://realpython.com/primer-on-jinja-templating/
 ### installation
 > pipenv install Jinja2
 
@@ -38,7 +38,9 @@ le chargement d'un modèle dans le moteur (environnemt).
 
 le rendu
 
-print(template.render(name="World"))
+> print(template.render(name="World"))
 
 
-Il est biensur plus intéressant de charger un modèle à partir d'un fichier.
+Il est bien sur plus intéressant de charger un modèle à partir d'un fichier.
+
+Un fichier comme modèle:
