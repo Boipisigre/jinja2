@@ -1,7 +1,7 @@
 # Introduction à la création de modèles Jinja
 
 ## Premiers pas
-Construit à partir de https://realpython.com/primer-on-jinja-templating/ que je vous recommande consulter pas seulement pour jinja2 mais aussi pour l'utilisation de jinja2 dans Flask.
+Construit à partir de https://realpython.com/primer-on-jinja-templating/ que je vous recommande de consulter pas seulement pour jinja2 mais aussi pour l'utilisation de jinja2 dans Flask.
 
 ### installation
 > pipenv install Jinja2
